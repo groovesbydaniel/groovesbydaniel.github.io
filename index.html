@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groovesbydaniel</title>
+    <link rel="icon" href="../assets/web-icon.png">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="mediaqueries.css" type="text/css">
+    <link rel="stylesheet" href="mobilestyles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk">
+</head>
+
+<body>
+    <div id="load-bg" class="loading">
+        <div style="display: grid; grid-template-rows: repeat(2, 10vh); justify-content: center; align-items: center;">
+            <div id="loading-p-div" class="paragraph">
+                <p id="loading-p" style="filter: drop-shadow(1px 1px 10px #ffffff)">LOADING...</p>
+            </div>  
+        </div>     
+        <div class="imgcontainer">
+            <img id="stopmixing" src="../assets/stopmixing.png" draggable="false" loading="eager" style="filter: drop-shadow(1px 1px 10px #000000)">
+        </div>
+    </div>
+
+    <section id="home" class="should-be-hidden">
+        <div id="home-menu-div" class="menu-div">
+            <div id="mobile-social-links" class="social-links">
+                <a href="https://linktr.ee/problemband" target="_blank">
+                    <img class="problem-link" src="../assets/problem-icon.png" loading="lazy">
+                </a>
+                <a class="link" href="https://open.spotify.com/artist/692kDNYv7SsdAhiUdgXHUy?si=v5VWyNGERaaQYGC2xqUVng" target="_blank">
+                    <i class="spotify-link fa-brands fa-spotify" style="color: #10BC4C"></i>
+                </a>
+                <a class="link" href="https://www.instagram.com/groovesbydaniel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <i class="instagram-link fa-brands fa-instagram"
+                    style="color: #9747FF"></i>
+                </a>                     
+                <a class="link" href="mailto:groovesbydaniel@gmail.com">
+                    <i class="email-link fa-solid fa-envelope" style="color:#A80100"></i>
+                </a>
+            </div>
+            <div id="hamburger-menu">
+                <object id="home-menu-svg" class="menu-svg" data="../assets/menu-01.svg" type="image/svg+xml" loading="lazy"></object>
+            </div>
+            <p id="daniel-ap-heading" class="heading" style="color: white; font-weight: bold">
+                daniel ap
+            </p>
+            <p id="titles" class="heading" style="color: #bc88ff;">
+                musician|audio engineer
+            </p>
+            <p id="menu-about">about</p>
+            <p id="menu-projects">projects</p>
+        </div>
+        <div class="bg"></div>
+        <div id="cards-content-div" class="content">
+            <div id="cards-menu" class="cards-menu-initial">
+                <div id="logocard-div" class="logocard-div-initial">
+                    <object id="logocard" data="../assets/logocard.svg" type="image/svg+xml" loading="lazy"></object>
+                    <object id="logocard-chevron-right" data="../assets/chevron-right.svg" type="image/svg+xml"
+                        loading="lazy"></object>
+                </div>
+                <rect id="pc-bgrect1" class="project-cards-bg-rect"></rect>
+            </div>
+            <div id="homepage-splide" class="">
+                <div id="homepage-track" class="">
+                    <div id="project-cards-div" class="project-cards-initial-layout">
+                        <div class="homeslide">
+                            <img id="bodiescard" class="bodies-initial-layout card bodiescards" src="../assets/beach-bodies-card.png"
+                            draggable="false" loading="lazy">
+                        </div>
+                        <div class="homeslide">
+                            <img id="bootycard" class="booty-initial-layout card bootycards" src="../assets/booty-jams-card.png" draggable="false"
+                            loading="lazy">
+                        </div>
+                        <div class="homeslide">
+                            <img id="idolcard" class="idol-initial-layout card idolcards" src="../assets/e-idol-card.png" draggable="false"
+                        loading="lazy">
+                        </div>                                               
+                    </div>
+                </div>
+            </div>                
+        </div>
+        <div id="beach-bodies-window" class="content project-window">
+            <div class="project-window-rect">
+                <div id="bb-x" class="x-div">
+                    <object id="bb-x-svg" class="x-close" data="../assets/x-close.svg" type="image/svg+xml"
+                        loading="lazy"></object>
+                </div>
+                <p id="bb-window-p1" class="paragraph project-window-p1">
+                    <span style="color: #10BC4C; font-weight: bold;">Rock</span> song engineered from recording to
+                    master
+                </p>
+                <p id="bb-window-p2" class="paragraph project-window-p2">
+                    (this is my band&nbsp;<span style="font-weight: bold;">THE PROBLEM</span>
+                    <img class="problem-icon" src="../assets/problem-icon.png" draggable="false" loading="lazy">)
+                </p>
+                <div id="bb-div" class="cover-audio-div">
+                    <iframe id="bb-audio" class="audio" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1653755127&color=%2310bc4c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+                <p id="bb-window-p3" class="paragraph project-window-p3">
+                    <span style="color: #10BC4C; font-weight: bold;">Credits</span>
+                </p>
+                <p id="bb-window-p4" class="paragraph project-window-p4">
+                    Bassist ▫ Songwriter ▫ Recording Engineer ▫ Mixing Engineer ▫ Mastering Engineer
+                </p>
+            </div>
+        </div>
+        <div id="booty-jams-window" class="content project-window">
+            <div class="project-window-rect">
+                <div id="bj-x" class="x-div">
+                    <object id="bj-x-svg" class="x-close" data="../assets/x-close.svg" type="image/svg+xml"
+                        loading="lazy"></object>
+                </div>
+                <p id="bj-window-p1" class="paragraph project-window-p1">
+                    6-track&nbsp;<span style="color: #A80100; font-weight: bold;">electronic pop</span> EP
+                </p>
+                <p id="bj-window-p2" class="paragraph project-window-p2">
+                    (made in collaboration with&nbsp;<span style="color: #A80100; font-weight: bold;">4&nbsp;</span>singer-songwriters)
+                </p>
+                <div id="bj-div" class="cover-audio-div">
+                    <iframe id="bj-audio" class="audio" style="border-radius:12px" src="https://open.spotify.com/embed/album/3B6EvujMp8ITxjJsq4LdoC?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <p id="bj-window-p3" class="paragraph project-window-p3">
+                    <span style="color: #A80100; font-weight: bold;">Credits</span>
+                </p>
+                <p id="bj-window-p4" class="paragraph project-window-p4">
+                    Songwriter ▫ Producer ▫ Recording Engineer ▫ Mixing Engineer ▫ Mastering Engineer
+                </p>
+            </div>
+        </div>
+        <div id="e-idol-window" class="content project-window">
+            <div class="project-window-rect">
+                <div id="idol-x" class="x-div">
+                    <object id="idol-x-svg" class="x-close" data="../assets/x-close.svg" type="image/svg+xml"
+                        loading="lazy"></object>
+                </div>
+                <p id="idol-window-p1" class="paragraph project-window-p1">
+                    <span style="color: #9747FF; font-weight: bold;">Rock</span> song engineered from recording to
+                    master
+                </p>
+                <p id="idol-window-p2" class="paragraph project-window-p2">
+                    (this is my band&nbsp;<span style="font-weight: bold;">THE PROBLEM</span>
+                    <img class="problem-icon" src="../assets/problem-icon.png" draggable="false" loading="lazy">)
+                </p>
+                <div id="idol-div" class="cover-audio-div">
+                    <iframe id="idol-audio" class="audio" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1812349335&color=%239747ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+                <p id="idol-window-p3" class="paragraph project-window-p3">
+                    <span style="color: #9747FF; font-weight: bold;">Credits</span>
+                </p>
+                <p id="idol-window-p4" class="paragraph project-window-p4">
+                    Bassist ▫ Songwriter ▫ Recording Engineer ▫ Mixing Engineer ▫ Mastering Engineer
+                </p>
+            </div>
+        </div>
+        <div id="footer-div">
+            <footer id="footer">
+                <div id="about-link">
+                    <div id="about-link-text" style="font-size: 3.5rem; align-self: center;" loading="lazy">
+                        About
+                    </div>
+                    <object id="about-link-chevron-down" type="image/svg+xml" data="../assets/chevron-right.svg" style="transform: rotate(90deg);"></object>
+                </div>
+                <div id="footer-social-links" class="social-links">
+                    <a href="https://linktr.ee/problemband" target="_blank">
+                        <img class="problem-link" src="../assets/problem-icon.png" loading="lazy">
+                    </a>
+                    <a class="link" href="https://open.spotify.com/artist/692kDNYv7SsdAhiUdgXHUy?si=v5VWyNGERaaQYGC2xqUVng" target="_blank">
+                        <i class="spotify-link fa-brands fa-spotify" style="color: #10BC4C"></i>
+                    </a>
+                    <a class="link" href="https://www.instagram.com/groovesbydaniel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                        <i class="instagram-link fa-brands fa-instagram"
+                        style="color: #9747FF"></i>
+                    </a>                     
+                    <a class="link" href="mailto:groovesbydaniel@gmail.com">
+                        <i class="email-link fa-solid fa-envelope" style="color:#A80100"></i>
+                    </a>    
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <section id="about" class="should-be-hidden">
+        <p id="about-p1" class="about-paragraph" style="color:#10BC4C; font-weight: bold;">
+            HI!
+        </p>
+        <p id="about-p2" class="about-paragraph">
+            I'm a<span style="color: #9747FF; font-weight: bold;">&nbsp;musician</span>,<span style="color: #9747FF; font-weight: bold;">&nbsp;producer</span>, and<span style="color: #9747FF; font-weight: bold;">&nbsp;audio engineer&nbsp;</span>from Long Beach, California
+        </p>
+        <p id="about-p3" class="about-paragraph">
+            I play bass in<span style="position: relative; top: 0.25rem; display: inline-flex; align-items: center; width: min-content;"><img class="problem-icon" style="object-fit: contain;" src="../assets/problem-icon.png" draggable="false" loading="lazy"></span><span style="color: #4A67FF; font-weight: bold;">&nbsp;THE PROBLEM (an alt-rock band)</span>&nbsp;and&nbsp;<span style="color: #4A67FF; font-weight: bold;">produce pop music&nbsp;</span>influenced by rock, jazz, hip-hop, R&B, and EDM
+        </p>
+        <p id="about-p4" class="about-paragraph">
+            I studied <span style="color: #978EFF; font-weight: bold;">Audio Engineering</span> at California State Polytechnic University Pomona and am currently freelancing as a <span style="color: #978EFF; font-weight: bold;">mixing engineer</span>
+        </p>
+        <p id="about-p5" class="about-paragraph">
+            &lt;also I learned HTML, CSS, and JS to make this website/&gt;
+        </p>
+        <a id="hyperlink-anchor" target="_blank" href="https://github.com/groovesbydaniel?tab=repositories">
+            <p class="hyperlink">
+                click to see the site on github 😲
+            </p>
+        </a>
+    </section>
+
+    <section id="projects" class="should-be-hidden">
+        <div id="proj-bg" class="bg"></div>
+        <div id="projects-page-cards-content-div" class="splide content">
+            <div id="projects-page-cards-menu" class="splide__track cards-menu-final">
+                <div id="projects-page-project-cards-div" class="splide__list">
+                    <div class="splide__slide">
+                        <img id="projects-page-bodiescard" class="card bodiescards" src="../assets/beach-bodies-card.png"
+                        draggable="false" loading="lazy">
+                    </div>
+                    <div class="splide__slide">
+                        <img id="projects-page-bootycard" class="card bootycards" src="../assets/booty-jams-card.png" draggable="false"
+                        loading="lazy">                        
+                    </div>
+                    <div class="splide__slide">
+                        <img id="projects-page-idolcard" class="card idolcards" src="../assets/e-idol-card.png" draggable="false"
+                    loading="lazy">
+                    </div>                                
+                </div>
+                <rect id="pc-bgrect2" class="project-cards-bg-rect"></rect>
+            </div>
+            <p style="text-align: center; width: 100vw; justify-self: center; font-size: 5rem; filter: drop-shadow(0px 3px 1px #000000);">
+                Projects
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="should-be-hidden">
+        <div class="content">
+            <div id="cont-overlay">
+                <object id="cont-icon" data="../assets/contact.svg" type="image/svg+xml"></object>
+                <a id="contact-page-mailto" href="mailto:groovesbydaniel@gmail.com">
+                    <p id="contact-page-email" class="paragraph">
+                        groovesbydaniel@gmail.com
+                    </p>
+                </a>                
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.js"
+    integrity="sha512-FSNQjUUq97PtDnAJyMlBTH8EhV4o5X5FLVbzS9ttrdEVVbmrssJBh/PgXFQbxS+6yYx5n5irOj7de6Th0TRQZA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js" integrity="sha512-qRj8N7fxOHxPkKjnQ9EJgLJ8Ng1OK7seBn1uk8wkqaXpa7OA13LO6txQ7+ajZonyc9Ts4K/ugXljevkFTUGBcw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+<script>
+    var SC="object"==typeof SC?SC:{};SC.Widget=function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){var r,o,i,u=n(1),a=n(2),c=n(3),s=u.api,l=u.bridge,d=[],f=[],p=/^http(?:s?)/;function E(e){var t,n;for(t=0,n=f.length;t<n&&!1!==e(f[t]);t++);}function v(e){return e.contentWindow?e.contentWindow:e.contentDocument&&"parentWindow"in e.contentDocument?e.contentDocument.parentWindow:null}function _(e){var t,n=[];for(t in e)e.hasOwnProperty(t)&&n.push(e[t]);return n}function S(e,t,n){n.callbacks[e]=n.callbacks[e]||[],n.callbacks[e].push(t)}function h(e,t){var n=!0;return t.callbacks[e]=[],E((function(t){if((t.callbacks[e]||[]).length)return n=!1,!1})),n}function y(e,t,n){var r,o,i=v(n);if(!i.postMessage)return!1;r=n.getAttribute("src").split("?")[0],o=JSON.stringify({method:e,value:t}),"//"===r.substr(0,2)&&(r=window.location.protocol+r),r=r.replace(/http:\/\/(w|wt).soundcloud.com/,"https://$1.soundcloud.com"),i.postMessage(o,r)}function b(e){var t;return E((function(n){if(n.instance===e)return t=n,!1})),t}function g(e){var t;return E((function(n){if(v(n.element)===e)return t=n,!1})),t}function m(e,t){return function(n){var r,o=!!((r=n)&&r.constructor&&r.call&&r.apply),i=b(this),u=!o&&t?n:null,a=o&&!t?n:null;return a&&S(e,a,i),y(e,u,i.element),this}}function R(e,t,n){var r,o,i;for(r=0,o=t.length;r<o;r++)e[i=t[r]]=m(i,n)}function O(e,t,n){return e+"?url="+t+"&"+function(e){var t,n,r=[];for(t in e)e.hasOwnProperty(t)&&(n=e[t],r.push(t+"="+("start_track"===t?parseInt(n,10):n?"true":"false")));return r.join("&")}(n)}function w(e,t,n){var r,o,i=e.callbacks[t]||[];for(r=0,o=i.length;r<o;r++)i[r].apply(e.instance,n);(function(e){var t,n=!1;for(t in a)if(a.hasOwnProperty(t)&&a[t]===e){n=!0;break}return n}(t)||t===s.READY)&&(e.callbacks[t]=[])}function A(e){var t,n,r,o,i;try{n=JSON.parse(e.data)}catch(e){return!1}return t=g(e.source),r=n.method,o=n.value,(!t||P(e.origin)===P(t.domain))&&(t?(r===s.READY&&(t.isReady=!0,w(t,"__LATE_BINDING__"),h("__LATE_BINDING__",t)),r!==s.PLAY||t.playEventFired||(t.playEventFired=!0),r!==s.PLAY_PROGRESS||t.playEventFired||(t.playEventFired=!0,w(t,s.PLAY,[o])),i=[],void 0!==o&&i.push(o),void w(t,r,i)):(r===s.READY&&d.push(e.source),!1))}function P(e){return e.replace(p,"")}window.addEventListener?window.addEventListener("message",A,!1):window.attachEvent("onmessage",A),e.exports=i=function(e,t,n){var i;if((""===(i=e)||i&&i.charCodeAt&&i.substr)&&(e=document.getElementById(e)),!function(e){return!(!e||1!==e.nodeType||"IFRAME"!==e.nodeName.toUpperCase())}(e))throw new Error("SC.Widget function should be given either iframe element or a string specifying id attribute of iframe element.");t&&(n=n||{},e.src=O("http://wt.soundcloud.test:9200/",t,n));var u,a,c=g(v(e));return c&&c.instance?c.instance:(u=d.indexOf(v(e))>-1,a=new r(e),f.push(new o(a,e,u)),a)},i.Events=s,window.SC=window.SC||{},window.SC.Widget=i,o=function(e,t,n){this.instance=e,this.element=t,this.domain=function(e){var t,n,r,o="";"//"===e.substr(0,2)&&(e=window.location.protocol+e);for(r=e.split("/"),t=0,n=r.length;t<n&&t<3;t++)o+=r[t],t<2&&(o+="/");return o}(t.getAttribute("src")),this.isReady=!!n,this.callbacks={}},(r=function(){}).prototype={constructor:r,load:function(e,t){if(e){t=t||{};var n=this,r=b(this),o=r.element,i=o.src,u=i.substr(0,i.indexOf("?"));r.isReady=!1,r.playEventFired=!1,o.onload=function(){n.bind(s.READY,(function(){var e,n=r.callbacks;for(e in n)n.hasOwnProperty(e)&&e!==s.READY&&y(l.ADD_LISTENER,e,r.element);t.callback&&t.callback()}))},o.src=O(u,e,t)}},bind:function(e,t){var n=this,r=b(this);return r&&r.element&&(e===s.READY&&r.isReady?setTimeout(t,1):r.isReady?(S(e,t,r),y(l.ADD_LISTENER,e,r.element)):S("__LATE_BINDING__",(function(){n.bind(e,t)}),r)),this},unbind:function(e){var t,n=b(this);n&&n.element&&(t=h(e,n),e!==s.READY&&t&&y(l.REMOVE_LISTENER,e,n.element))}},R(r.prototype,_(a)),R(r.prototype,_(c),!0)},function(e,t){t.api={LOAD_PROGRESS:"loadProgress",PLAY_PROGRESS:"playProgress",PLAY:"play",PAUSE:"pause",FINISH:"finish",SEEK:"seek",READY:"ready",OPEN_SHARE_PANEL:"sharePanelOpened",CLICK_DOWNLOAD:"downloadClicked",CLICK_BUY:"buyClicked",ERROR:"error"},t.bridge={REMOVE_LISTENER:"removeEventListener",ADD_LISTENER:"addEventListener"}},function(e,t){e.exports={GET_VOLUME:"getVolume",GET_DURATION:"getDuration",GET_POSITION:"getPosition",GET_SOUNDS:"getSounds",GET_CURRENT_SOUND:"getCurrentSound",GET_CURRENT_SOUND_INDEX:"getCurrentSoundIndex",IS_PAUSED:"isPaused"}},function(e,t){e.exports={PLAY:"play",PAUSE:"pause",TOGGLE:"toggle",SEEK_TO:"seekTo",SET_VOLUME:"setVolume",NEXT:"next",PREV:"prev",SKIP:"skip"}}]);
+//# sourceMappingURL=http://ent/web-sourcemaps/api.js-27d0ec1de3c5.map
+</script>
+<script src="script.js"></script>

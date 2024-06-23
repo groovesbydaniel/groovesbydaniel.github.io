@@ -1,0 +1,623 @@
+/* 📱|| window fills viewport on narrow screens */
+@media (width < 1320px) { 
+    .project-window-rect {
+        margin: 0rem;
+        height: 90vh;
+        min-height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        border-radius: 0rem;
+        filter: drop-shadow(0 0 3rem #9747FF);
+        outline: none;
+        box-shadow: 0 0 0 0px hsla(266, 100%, 50%);
+        background-image: radial-gradient(circle 1500rem, black, grey);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; 
+    }
+}
+
+/* 📱|| logocard x button spacing for landscape phones */
+@media (width < 1000px) and (height < 500px) {
+    #logocard {
+        width: 47vh;
+        max-width: 145px;
+    }
+
+    #logocard-chevron-right {
+        left: clamp(65px, 17vw, 113px);
+    }
+}
+
+/* 📱|| logocard x button spacing for short screens */
+@media (height < 1080px) {
+    .x-div {
+        top: clamp(10px, 4vh, 30px);
+    }
+}
+
+@media (height < 980px) {
+    .x-div {
+        top: clamp(10px, 3.5vh, 30px);
+    }
+}
+
+@media (height < 880px) {
+    .x-div {
+        top: clamp(10px, 3vh, 30px);
+    }
+}
+
+@media (height < 780px) {
+    .x-div {
+        top: clamp(10px, 2.5vh, 30px);
+    }
+}
+
+@media (height < 680px) {
+    .x-div {
+        top: clamp(10px, 2vh, 30px);
+    }
+}
+
+@media (height < 580px) {
+    .x-div {
+        top: clamp(10px, 1.5vh, 30px);
+    }
+}
+
+@media (height < 480px) {
+    .x-div {
+        top: clamp(10px, 1vh, 30px);
+    }
+}
+
+/* 📱|| window paragraph font size for wide screens */
+@media (width >= 1920px) {
+    .paragraph {
+        font-size: 3.5rem;
+    }
+}
+
+/* 📱|| window paragraph font size for narrow screens */
+@media (width < 1920px) {
+    .paragraph {
+        font-size: 3rem;
+    }
+}
+
+@media (width < 790px) {
+    .paragraph {
+        font-size: 2.5rem;
+    }
+}
+
+@media (width < 665px) {
+    .paragraph {
+        font-size: 2.25rem;
+    }
+}
+
+@media (width < 615px) {
+    .paragraph {
+        font-size: 2rem;
+    }
+}
+
+@media (width < 530px) {
+    .paragraph {
+        font-size: 1.75rem;
+    }
+}
+
+@media (width < 450px) {
+    .paragraph {
+        font-size: 1.5rem;
+    }
+}
+
+/* 📱|| window paragraph font size for short screens */
+@media (width < 1320px) and (height < 1080px) {
+    .paragraph {
+        font-size: 3rem;
+    }
+
+    .project-window-p1 {
+        padding-top: 12vh !important;
+    }
+}
+
+@media (width < 1320px) and (height < 980px) {
+    .paragraph {
+        font-size: 2.5rem;
+    }
+
+    .project-window-p1 {
+        padding-top: 12vh !important;
+    }
+}
+
+@media (width < 1320px) and (height < 880px) {
+    .paragraph {
+        font-size: 2rem;
+    }
+
+    .audio {
+        transform: scale(0.80);
+    }
+
+    .cover-audio-div {
+        margin-top: -2.5vh;
+        margin-bottom: -2.5vh;
+    }
+
+    .project-window-p1 {
+        padding-top: 12vh !important;
+    }
+}
+
+@media (width < 1320px) and (height < 780px) {
+    .paragraph {
+        font-size: 2rem;
+    }
+
+    .audio {
+        transform: scale(0.70);
+    }
+
+    .cover-audio-div {
+        margin-top: -2.5vh;
+        margin-bottom: -2.5vh;
+    }
+
+    .project-window-p1 {
+        padding-top: 10vh !important;
+    }
+}
+
+@media (width < 1320px) and (height < 680px) {
+    .paragraph {
+        font-size: 1.5rem;
+        padding-top: 4vh !important;
+    }
+
+    .project-window-p1 {
+        padding-top: 10vh !important;
+    }
+
+    .project-window-p2 {
+        font-size: 0.75rem;
+    }
+
+    .project-window-p2 {
+        padding-top: 2vh !important;
+    }
+
+    .cover-audio-div {
+        padding-top: 0;
+        margin-top: -5vh;
+        margin-bottom: -5vh;
+    }
+}
+
+@media (width < 1320px) and (height < 580px) {
+    .paragraph {
+        font-size: 1.25rem;
+        padding-top: 4vh !important;
+    }
+
+    .project-window-p1 {
+        padding-top: 10vh !important;
+    }
+
+    .project-window-p2 {
+        padding-top: 5vh !important;
+    }
+
+    .audio {
+        transform: scale(0.60);
+    }
+
+    .cover-audio-div {
+        margin-top: -12vh !important;
+        margin-bottom: -12vh !important;
+    }
+}
+
+@media (width < 1320px) and (height < 480px) {
+    .paragraph {    
+        padding-top: 2.55vh !important;
+    }
+    
+    .audio {
+        transform: scale(0.60);
+    }
+
+    .cover-audio-div {
+        margin-top: -16vh !important;
+        margin-bottom: -16vh !important;
+    }
+
+    .project-window-p1 {
+        padding-top: 10vh !important;
+    }
+
+    .project-window-p3 {
+        padding-top: 4vh !important;
+    }
+}
+
+@media (width < 1320px) and (height < 430px) {
+    .paragraph {   
+        font-size: 1rem; 
+        padding-top: 2.55vh !important;
+    }
+
+    .project-window-p2 {
+        font-size: 1rem !important;
+    }
+    
+    .audio {
+        transform: scale(0.50);
+    }
+
+    .cover-audio-div {
+        margin-top: -86px !important;
+        margin-bottom: -86px !important;
+    }
+
+    .project-window-p1 {
+        padding-top: 12vh !important;
+    }
+
+    .project-window-p3 {
+        margin-top: 2.5vh !important; 
+    }
+}
+
+/* 📱|| window P2 font size for wide screens */
+@media (width >= 1920px) {
+    .project-window-p2 {
+        font-size: clamp(21px, 1.2vw, 23px);
+    }
+}
+
+/* 📱|| window P2 font size for narrow screens */
+@media (width < 790px) {
+    .project-window-p2 {
+        font-size: clamp(16px, 1.2vw, 23px);
+    }
+}
+
+@media (width < 530px) {
+    .project-window-p2 {
+        font-size: 1.5rem;
+    }
+
+    .paragraph:not(#project-window-p2) {
+        text-wrap: wrap;
+    }
+}
+
+@media (width < 450px) {
+    .project-window-p2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* 📱|| window P2 font size for short screens */
+@media (width <= 1920px) and (height < 1080px) {
+    .project-window-p2 {
+        font-size: 2.25rem;
+    }
+}
+
+@media (width <= 1920px) and (height < 980px) {
+    .project-window-p2 {
+        font-size: 2rem;
+    }
+}
+
+@media (width <= 1920px) and (height < 880px) {
+    .project-window-p2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (width <= 1920px) and (height < 780px) {
+    .project-window-p2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (width <= 1920px) and (height < 680px) {
+    .project-window-p2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (width <= 1920px) and (height < 580px) {
+    .project-window-p2 {
+        font-size: 1rem;
+    }
+}
+
+@media (width <= 1920px) and (height < 480px) {
+    .project-window-p2 {
+        font-size: 0.75rem;
+    }
+}
+
+/* 📱|| window cover art size for narrow screens */
+@media (width < 790px) {
+    .project-cover {
+        width: clamp(383px, 20%, 500px);
+    }
+}
+
+@media (width < 615px) {
+    .project-cover {
+        width: clamp(368px, 20%, 500px);
+    }
+}
+
+@media (width < 450px) {
+    .project-cover {
+        width: clamp(297px, 75%, 337px)
+    }
+}
+
+/* 📱|| window P4 width for narrow screens */
+@media (width < 1010px) {
+    .project-window-p4 {
+        min-width: 75vw;
+    }
+}
+
+/* 📱|| window paragraph spacing for wide screens */
+@media (width >= 1920px) {
+    .paragraph, .project-cover {
+        padding-top: 5.2rem;
+    }
+}
+
+@media (width >= 2000px) {
+    .paragraph, .project-cover {
+        padding-top: 4.5rem;
+    }
+}
+
+@media (width >= 2125px) {
+    .paragraph, .project-cover {
+        padding-top: 4rem;
+    }
+}
+
+@media (width >= 2225px) {
+    .paragraph, .project-cover {
+        padding-top: 4rem;
+    }
+}
+
+/* 📱|| window paragraph spacing for narrow screens */
+@media (width < 1920px) {
+    .paragraph, .project-cover {
+        padding-top: 5.5rem;
+    }
+}
+
+@media (width < 1920px) and (width >= 1805px) {
+    .paragraph, .project-cover {
+        padding-top: 5.6vh;
+    }
+}
+
+@media (width < 1805px) and (width >= 1705px) {
+    .paragraph, .project-cover {
+        padding-top: 5.8vh;
+    }
+}
+
+@media (width < 1705px) and (width >= 1420px) {
+    .paragraph, .project-cover {
+        padding-top: 6vh;
+    }
+}
+
+@media (width < 1050px) {
+    .paragraph:not(#loading-p-div), .project-cover {
+        padding-top: clamp(144px, 22vw, 170px);
+    }
+}
+
+@media (width < 790px) {
+    .project-window-p1 {
+        padding-top: 31vw;
+    }
+}
+
+@media (width < 665px) {
+    .project-window-p1 {
+        padding-top: 31vw;
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: 7rem;
+    }
+}
+
+@media (width < 615px) {
+    .project-window-p1 {
+        padding-top: 36vw;
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: 6rem;
+    }
+}
+
+@media (width < 530px) {
+    .project-window-p1 {
+        padding-top: 40vw;
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: 4rem;
+    }
+}
+
+@media (width < 450px) {
+    .project-window-p1 {
+        padding-top: clamp(225px, 50vw, 225px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: 3rem;
+    }
+}
+
+/* 📱|| window paragraph spacing for short screens */
+@media (width <= 1920px) and (height < 1080px) {
+    .project-window-p1 {
+        padding-top: clamp(41px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(21px, 4vh, 52px);
+    }
+
+    .project-cover {
+        width: clamp(90px, 45vh, 500px);
+    }
+}
+
+@media (width <= 1920px) and (height < 980px) {
+    .project-window-p1 {
+        padding-top: clamp(35px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(17px, 4vh, 52px);
+    }
+}
+
+@media (width <= 1920px) and (height < 880px) {
+    .project-window-p1 {
+        padding-top: clamp(30px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(14px, 4vh, 52px);
+    }
+}
+
+@media (width <= 1920px) and (height < 780px) {
+    .project-window-p1 {
+        padding-top: clamp(25px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(12px, 4vh, 52px);
+    }
+}
+
+@media (width <= 1920px) and (height < 680px) {
+    .project-window-p1 {
+        padding-top: clamp(20px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(10px, 3vh, 52px);
+    }
+}
+
+@media (width <= 1920px) and (height < 580px) {
+    .project-window-p1 {
+        padding-top: clamp(15px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(8px, 4vh, 52px);
+    }
+}
+
+@media (width <= 1920px) and (height < 480px) {
+    .project-window-p1 {
+        padding-top: clamp(10px, 6.5vh, 81px);
+    }
+
+    .project-window-p2,
+    .project-cover,
+    .project-window-p3, 
+    .project-window-p4 {
+        padding-top: clamp(5px, 4vh, 52px);
+    }
+}
+
+/* push out project cards on narrow screens */
+@media (width < 1080px) {
+    .project-cards-final-layout {
+        margin-left: 20vw
+    }
+}
+
+@media (width < 880px) {
+    .project-cards-final-layout {
+        margin-left: 45vw
+    }
+}
+
+@media (width < 680px) {
+    .project-cards-final-layout {
+        margin-left: 70vw
+    }
+}
+
+@media (width < 480px) {
+    .project-cards-final-layout {
+        margin-left: 95vw
+    }
+}
+
+@media (width < 1280px) {
+    #problem-link {
+        width: clamp(44px, 4.5vw, 57px); 
+    }
+}
+
+@media (width < 1280px) {
+    .link > i {
+        font-size: clamp(40px, 4vw, 51px);
+    }
+}
