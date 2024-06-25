@@ -1,3 +1,8 @@
+window.onbeforeunload = function () {
+    hiddenSections.forEach((section) => section.classList.add('hide'));
+    window.scrollTo(0, 0);
+};
+
 // #region LOADING SCREEN
 const loadBg = document.getElementById('load-bg');
 const loadImg = document.getElementById('stopmixing');

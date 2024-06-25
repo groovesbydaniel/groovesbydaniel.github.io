@@ -114,6 +114,12 @@ body.no-scroll {
 }
 
 /* ||| PROJECT WINDOWS */
+.specialthanks {
+    font-size: clamp(14px, 1vw, 22px);
+    margin: 10px;
+    text-align: center;
+}
+
 .project-window {
     z-index: 8;
     display: flex;
@@ -675,6 +681,19 @@ body.no-scroll {
 
     #loading-p {
         font-size: clamp(27px, 5vh, 50px); 
+    }
+}
+
+@media (width < 850px) {
+    #hyperlink-anchor {
+        display: grid;
+    }
+
+    .hyperlink {
+        margin-left: 0;
+        margin-top: 4rem;
+        margin-bottom: 4.5rem;
+        justify-self: center;
     }
 }
 
